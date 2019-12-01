@@ -1,0 +1,45 @@
+
+ 1955  code .
+ 1956  git init
+ 1957  git status
+ 1958  git add index.js
+ 1959  git status
+ 1960  git status -m
+ 1961  git status -s
+ 1962  git commit
+ 1963  git commit -m 'commit1'
+ 1964  git config --global user.name = "Suhag"
+ 1965  git config --global user.email = "suhagsarak"
+ 1966  git config --global --list
+ 1967  git config --global user.email "suhagsarak"
+ 1968  git config --global user.email "suhagsarak@gmail.com"
+ 1969  git config --global user.name "Suhag"
+ 1970  git config --global --list
+ 1971  git commit -m 'commit1'
+ 1972  git status
+ 1973  git status -s
+ 1974  git add .
+ 1975  git status -s
+ 1976  git commit -m 'commit2'
+ 1977  git status -s
+ 1978  git status 
+ 1979  git remote add origin https://github.com/suhagsarak/test.git
+ 1980  git log
+ 1981  git remote -v
+ 1982  git push origin master
+ 1983  git branch
+ 1984  git branch newbr
+ 1985  git branch
+ 1986  git checkout newbr
+ 1987  git branch
+ 1988  git add .
+ 1989  git commit
+ 1990  git commit -m'newbr1'
+ 1991  git log
+ 1992  git checkout master
+ 1993  git checkout newbr
+ 1994  git checkout master
+ 1995  git merge newbr
+ 1996  git log
+ 1997  history
+ 1998  history>file.txt
